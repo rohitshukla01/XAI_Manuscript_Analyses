@@ -68,13 +68,18 @@ The bathyemtery figures for each reservoir are generated using the notebook belo
 ### 1. Clone the repository
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/rohitshukla01/XAI_Manuscript_Analyses.git
+cd XAI_Manuscript_Analyses
+```
 
-For questions or collaboration ideas, feel free to open an issue.
+---
 
+## Citation & Data Access
 
-Visit EDI portal for direct data acquisition: https://portal.edirepository.org/nis/home.jsp
+📑 If you use this code in a publication, cite this repository.
+
+🌐 Visit EDI portal for direct data acquisition: https://portal.edirepository.org/nis/home.jsp
+
 
 
 
