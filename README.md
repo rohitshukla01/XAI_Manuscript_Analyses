@@ -24,7 +24,9 @@ To begin the analysis, you first need to get the dataset. You can do this by fol
 
   - Run the R code from the GitHub Repository (https://github.com/abreefpilz/Reservoirs/blob/master/Scripts/Daily_avg_RS.R)
 
-The script automatically fetches the required data packages directly from the EDI portal, processes the variables, and saves the final output as a .csv file. Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used for this project (uploaded here). 
+The script automatically fetches the required data packages directly from the EDI portal, processes the variables, and saves the final output as a .csv file.
+
+Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used for this project (uploaded here). 
 
 
 ### Step 2: Data Analysis and Visualization
