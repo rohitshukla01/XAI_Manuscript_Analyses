@@ -11,7 +11,7 @@
 
 # Predicting Phytoplankton Dynamics with Explainable AI
 
-This project uses machine learning and explainable AI (XAI) to predict and understand the phytoplankton dynamics in the Falling Creek and Beaverdam Reservoirs in Virginia. By analyzing environmental variables collected at the sites, and meterological data we uncover the hidden patterns driving phytoplanktons, offering insights for water quality management and ecological research. 
+This project uses machine learning and explainable AI (XAI) to predict and understand the phytoplankton dynamics in the Falling Creek and Beaverdam Reservoirs in Virginia, USA. By analyzing environmental variables collected at the sites, we uncover the hidden patterns driving phytoplankton dynamics, offering insights for both water quality management and ecological research. 
 
 ---
 
@@ -20,27 +20,27 @@ This project uses machine learning and explainable AI (XAI) to predict and under
 
 ### Step 1: Fetch the Data
 
-To begin the analysis, you first need to get the dataset. You can do this by following steps below:
+To begin the analysis, you first need to compile the dataset from the Virginia LTREB Reservoirs monitoring program. You can do this by following steps below:
 
   - Run the R code from the GitHub Repository (https://github.com/abreefpilz/Reservoirs/blob/master/Scripts/Daily_avg_RS.R)
 
-The script automatically fetches the required data packages directly from the EDI portal, processes the variables, and saves the final output as a .csv file.
+The script automatically fetches the required data packages directly from the EDI Repository API portal, processes the variables, and saves the final output as a .csv file.
 
 Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used for this project (uploaded here). 
 
 
 ### Step 2: Data Analysis and Visualization
 
-Once the data is retreived/loaded, the next step is to perform an exploratory data analysis (EDA). 
+Once the data are retrieved/loaded, the next step is to perform an exploratory data analysis (EDA). 
 
 
   -  The chl-a_timeseries.ipynb notebook is provided for this purpose.
 
- This script process the phytoplankton (chlorophyll-a) data , visualize trends, and generate plots to understand the dataset's characteristics.
+ This script processes the phytoplankton (chlorophyll-a) data, visualizes trends, and generates plots to understand the dataset's characteristics.
 
  ### Step 3: ML-XAI implemenation
 
-The machine learning and explainable AI analyses are performed in two separate Jupyter Notebooks, with one dedicated to each reservoir as descibed below
+The machine learning and explainable AI analyses are performed in two separate Jupyter Notebooks, with one dedicated to each reservoir as descibed below:
 
   - Falling Creek Reservoir (FCR)
 
@@ -62,7 +62,7 @@ Contains the complete ML models and SHAP analyses with figures for the BVR.
 
 ## Bathymetry Data Processing & Visualization
 
-The bathyemtery figures for each reservoir are generated using the notebook below.
+The bathymetry figures for each reservoir are generated using the notebook below.
 
 
 
