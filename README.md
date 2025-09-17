@@ -33,7 +33,6 @@ Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used 
 
 Once the data is retreived/loaded, the next step is to perform an exploratory data analysis (EDA). 
 
-  [![Open In Jupyter](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter)](./path/to/your/notebook.ipynb)
 
   -  The chl-a_timeseries.ipynb notebook is provided for this purpose.
 
@@ -45,13 +44,13 @@ The machine learning and explainable AI analyses are performed in two separate J
 
   - Falling Creek Reservoir (FCR)
 
-[![Open In Jupyter](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter)](./path/to/your/notebook.ipynb)
+
 
 Contains the complete ML models and SHAP analyses with figures for the FCR.
 
   -  Beaverdam Reservoir (BVR)
 
-[![Open In Jupyter](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter)](./path/to/your/notebook.ipynb)
+
 
 Contains the complete ML models and SHAP analyses with figures for the BVR.
 
@@ -61,7 +60,7 @@ Contains the complete ML models and SHAP analyses with figures for the BVR.
 
 The bathyemtery figures for each reservoir are generated using the notebook below.
 
-[![Open In Jupyter](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter)](./path/to/your/notebook.ipynb)
+
 
 ---
 
