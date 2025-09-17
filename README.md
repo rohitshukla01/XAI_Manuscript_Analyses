@@ -50,6 +50,8 @@ Contains the complete ML models and SHAP analyses with figures for the FCR.
 
   -  Beaverdam Reservoir (BVR)
 
+  -  BVR_XAI_ANALYSES_REVIEW.ipynb
+
 
 
 Contains the complete ML models and SHAP analyses with figures for the BVR.
