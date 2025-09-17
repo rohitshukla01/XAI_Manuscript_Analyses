@@ -24,7 +24,16 @@ To begin the analysis, you first need to compile the dataset from the Virginia L
 
   - Run the R code from the GitHub Repository (https://github.com/abreefpilz/Reservoirs/blob/master/Scripts/Daily_avg_RS.R)
 
-The script automatically fetches the required data packages directly from the EDI Repository API portal, processes the variables, and saves the final output as a .csv file.
+The script automatically fetches the required data packages directly from the EDI Repository API portal (given below), processes the variables, and saves the final output as a .csv file.
+
+Citations
+
+Carey, C. C., & Breef-Pilz, A. (2025). Time series of high-frequency meteorological data at Falling Creek Reservoir, Virginia, USA, 2015–2024 (ver. 9). Environmental Data Initiative. https://doi.org/10.6073/pasta/0389840ddcb39ec5526869ac898ddb5d <sub>Accessed 2025-09-17</sub>.
+
+Carey, C. C., & Breef-Pilz, A. (2025). Time series of high-frequency sensor data measuring water temperature, dissolved oxygen, conductivity, specific conductance, total dissolved solids, chlorophyll a, phycocyanin, fluorescent dissolved organic matter, and turbidity at discrete depths, and water level in Beaverdam Reservoir, Virginia, USA, 2009–2024 (ver. 5). Environmental Data Initiative. https://doi.org/10.6073/pasta/8f666b34c120aa5d2242964cf3147f90 <sub>Accessed 2025-09-17</sub>.
+
+Carey, C. C., & Breef-Pilz, A. (2025). Time series of high-frequency sensor data measuring water temperature, dissolved oxygen, pressure, conductivity, specific conductance, total dissolved solids, chlorophyll a, phycocyanin, fluorescent dissolved organic matter, and turbidity at discrete depths in Falling Creek Reservoir, Virginia, USA, 2018–2024 (ver. 9). Environmental Data Initiative. https://doi.org/10.6073/pasta/f74fd5c5fc9ea4141a662ce773962ce0 <sub>Accessed 2025-09-17</sub>.
+
 
 Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used for this project (uploaded here). 
 
