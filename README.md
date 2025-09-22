@@ -53,7 +53,7 @@ The machine learning and explainable AI analyses are performed in two separate J
 
   - Falling Creek Reservoir (FCR)
 
-  - FCR_XAI_ANALYSES_REVIEW-2.ipynb
+  - XAI_FCR_ANALYSES.ipynb
 
 
 
@@ -61,7 +61,7 @@ Contains the complete ML models and SHAP analyses with figures for the FCR.
 
   -  Beaverdam Reservoir (BVR)
 
-  -  BVR_XAI_ANALYSES_REVIEW.ipynb
+  -  XAI_BVR_ANALYSES.ipynb
 
 
 
@@ -73,6 +73,7 @@ Contains the complete ML models and SHAP analyses with figures for the BVR.
 
 The bathymetry figures for each reservoir are generated using the notebook below.
 
+bathymetry_bvr_fcr.ipynb
 
 
 ---
