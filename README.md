@@ -26,7 +26,7 @@ To begin the analysis, you first need to compile the dataset from the Virginia L
 
 The script automatically fetches the required data packages directly from the EDI Repository API portal (given below), processes the variables, and saves the final output as a .csv file.
 
-Citations
+Citations:
 
 Carey, C. C., & Breef-Pilz, A. (2025). Time series of high-frequency meteorological data at Falling Creek Reservoir, Virginia, USA, 2015–2024 (ver. 9). Environmental Data Initiative. https://doi.org/10.6073/pasta/0389840ddcb39ec5526869ac898ddb5d <sub>Accessed 2025-09-17</sub>.
 
@@ -42,8 +42,7 @@ Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used 
 
 Once the data are retrieved/loaded, the next step is to perform an exploratory data analysis (EDA). 
 
-
-  -  The chl-a_timeseries.ipynb notebook is provided for this purpose.
+- [chl-a_timeseries.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/chl-a_timeseries.ipynb)
 
  This script processes the phytoplankton (chlorophyll-a) data, visualizes trends, and generates plots to understand the dataset's characteristics.
 
@@ -53,16 +52,14 @@ The machine learning and explainable AI analyses are performed in two separate J
 
   - Falling Creek Reservoir (FCR)
 
-  - XAI_FCR_ANALYSES.ipynb
-
+  - [XAI_FCR_ANALYSES.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/XAI_FCR_ANALYSES.ipynb)
 
 
 Contains the complete ML models and SHAP analyses with figures for the FCR.
 
   -  Beaverdam Reservoir (BVR)
 
-  -  XAI_BVR_ANALYSES.ipynb
-
+  -  - [XAI_BVR_ANALYSES.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/XAI_BVR_ANALYSES.ipynb)
 
 
 Contains the complete ML models and SHAP analyses with figures for the BVR.
@@ -73,7 +70,7 @@ Contains the complete ML models and SHAP analyses with figures for the BVR.
 
 The bathymetry figures for each reservoir are generated using the notebook below.
 
-bathymetry_bvr_fcr.ipynb
+- [bathymetry_bvr_fcr.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/bathymetry_bvr_fcr.ipynb)
 
 
 ---
