@@ -42,7 +42,8 @@ Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used 
 
 Once the data are retrieved/loaded, the next step is to perform an exploratory data analysis (EDA). 
 
-- [chl-a_timeseries.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/chl-a_timeseries.ipynb)
+- [chl-a_timeseries.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/Chl-a_timeseries.ipynb)
+
 
  This script processes the phytoplankton (chlorophyll-a) data, visualizes trends, and generates plots to understand the dataset's characteristics.
 
@@ -59,7 +60,7 @@ Contains the complete ML models and SHAP analyses with figures for the FCR.
 
   -  Beaverdam Reservoir (BVR)
 
-  -  - [XAI_BVR_ANALYSES.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/XAI_BVR_ANALYSES.ipynb)
+  - [XAI_BVR_ANALYSES.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/XAI_BVR_ANALYSES.ipynb)
 
 
 Contains the complete ML models and SHAP analyses with figures for the BVR.
