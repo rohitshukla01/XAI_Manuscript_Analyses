@@ -11,7 +11,7 @@
 
 # Predicting Phytoplankton Dynamics with Explainable AI
 
-This project uses machine learning and explainable AI (XAI) to predict and understand the phytoplankton dynamics in the Falling Creek and Beaverdam Reservoirs in Virginia, USA. By analyzing environmental variables collected at the sites, we uncover the hidden patterns driving phytoplankton dynamics, offering insights for both water quality management and ecological research. Note that this analysis is performed using Python version 3.12.11.
+This project uses machine learning and explainable AI (XAI) to predict and understand the phytoplankton dynamics in the Falling Creek and Beaverdam Reservoirs in Virginia, USA. By analyzing environmental variables collected at the sites, we uncover the hidden patterns driving phytoplankton dynamics, offering insights for both water quality management and ecological research. Note that this analysis is performed using Python version 3.12.11 and running the full workflow may take an hour or longer, depending on your system.
 
 ---
 
