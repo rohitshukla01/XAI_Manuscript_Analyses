@@ -1,5 +1,3 @@
-
-
 <p align="left">
 <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg">
 <img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-blueviolet">
@@ -10,6 +8,9 @@
 </p>
 
 # Predicting Phytoplankton Dynamics with Explainable AI
+
+#### Code and data repository for the paper
+---
 
 This project uses machine learning and explainable AI (XAI) to predict and understand the phytoplankton dynamics in the Falling Creek and Beaverdam Reservoirs in Virginia, USA. By analyzing environmental variables collected at the sites, we uncover the hidden patterns driving phytoplankton dynamics, offering insights for both water quality management and ecological research. Note that this analysis is performed using Python version 3.12.11 and running the full workflow may take an hour or longer, depending on your system.
 
@@ -24,7 +25,9 @@ To begin the analysis, you first need to compile the dataset from the Virginia L
 
   - Run the R code from the GitHub Repository (https://github.com/abreefpilz/Reservoirs/blob/master/Scripts/Daily_avg_RS.R)
 
-The script automatically fetches the required data packages directly from the EDI Repository API portal (given below), processes the variables, and saves the final output as a .csv file.
+The script automatically fetches the required data packages directly from the EDI Repository API portal (given below), processes the variables, and saves the final output as a .csv file. 
+
+* Note: Running this code can take a few minutes and may require substantial memory, depending on your system. 
 
 Citations:
 
@@ -89,9 +92,9 @@ cd XAI_Manuscript_Analyses
 
 ## ✅ Citation & Data Access
 
-📑 If you use this code in a publication, cite this repository.
+📑 If you use this code in a publication, please cite this repository/paper. 
 
-🌐 Visit EDI portal for direct data acquisition: https://portal.edirepository.org/nis/home.jsp
+🌐 Visit EDI portal for direct data acquisition: https://portal.edirepository.org/nis/home.jsp.
 
 
 
