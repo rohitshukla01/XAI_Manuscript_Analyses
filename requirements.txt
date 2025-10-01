@@ -1,0 +1,12 @@
+# Requirements for running notebooks
+
+pandas
+numpy>=1.25
+matplotlib
+scikit-learn
+catboost
+xgboost
+shap
+torch
+geopandas
+shapely
