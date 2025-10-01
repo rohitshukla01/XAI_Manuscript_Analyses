@@ -29,7 +29,7 @@ The script automatically fetches the required data packages directly from the ED
 
 * Note: Running this code can take a few minutes and may require substantial memory, depending on your system. 
 
-Citations:
+#### Citations:
 
 Carey, C. C., & Breef-Pilz, A. (2025). Time series of high-frequency meteorological data at Falling Creek Reservoir, Virginia, USA, 2015–2024 (ver. 9). Environmental Data Initiative. https://doi.org/10.6073/pasta/0389840ddcb39ec5526869ac898ddb5d <sub>Accessed 2025-09-17</sub>.
 
@@ -38,7 +38,7 @@ Carey, C. C., & Breef-Pilz, A. (2025). Time series of high-frequency sensor data
 Carey, C. C., & Breef-Pilz, A. (2025). Time series of high-frequency sensor data measuring water temperature, dissolved oxygen, pressure, conductivity, specific conductance, total dissolved solids, chlorophyll a, phycocyanin, fluorescent dissolved organic matter, and turbidity at discrete depths in Falling Creek Reservoir, Virginia, USA, 2018–2024 (ver. 9). Environmental Data Initiative. https://doi.org/10.6073/pasta/f74fd5c5fc9ea4141a662ce773962ce0 <sub>Accessed 2025-09-17</sub>.
 
 
-Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used for this project (uploaded here). 
+##### Running this script will reproduce the FCR_BVR_Met_daily_obs_2019_2024.csv used for this project (uploaded here). 
 
 
 ### Step 2: Data Analysis and Visualization
@@ -48,34 +48,37 @@ Once the data are retrieved/loaded, the next step is to perform an exploratory d
 - [chl-a_timeseries.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/Chl-a_timeseries.ipynb)
 
 
- This script processes the phytoplankton (chlorophyll-a) data, visualizes trends, and generates plots to understand the dataset's characteristics.
+ ##### This script processes the phytoplankton (chlorophyll-a) data, visualizes trends, and generates plots to understand the dataset's characteristics.
 
  ### Step 3: ML-XAI implemenation
 
-The machine learning and explainable AI analyses are performed in two separate Jupyter Notebooks, with one dedicated to each reservoir as descibed below:
+##### The machine learning and explainable AI analyses are performed in two separate Jupyter Notebooks, with one dedicated to each reservoir as descibed below:
 
   - Falling Creek Reservoir (FCR)
 
   - [XAI_FCR_ANALYSES.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/XAI_FCR_ANALYSES.ipynb)
 
 
-Contains the complete ML models and SHAP analyses with figures for the FCR.
+##### Contains the complete ML models and SHAP analyses with figures for the FCR.
 
   -  Beaverdam Reservoir (BVR)
 
   - [XAI_BVR_ANALYSES.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/XAI_BVR_ANALYSES.ipynb)
 
 
-Contains the complete ML models and SHAP analyses with figures for the BVR.
+##### Contains the complete ML models and SHAP analyses with figures for the BVR.
 
 ---
 
 ## Bathymetry Data Processing & Visualization
 
-The bathymetry figures for each reservoir are generated using the notebook below.
+#### Bathymetry data is downloaded from EDI Repository below (also uploaded here for running the notebook)
+
+Carey, C.C., A.S. Lewis, D.W. Howard, W.M. Woelmer, P.A. Gantzer, K.A. Bierlein, J.C. Little, and WVWA. 2022. Bathymetry and watershed area for Falling Creek Reservoir, Beaverdam Reservoir, and Carvins Cove Reservoir ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/352735344150f7e77d2bc18b69a22412 (Accessed 2025-10-01).
+
+##### The bathymetry figures for each reservoir are generated using the notebook below.
 
 - [bathymetry_bvr_fcr.ipynb](https://github.com/rohitshukla01/XAI_Manuscript_Analyses/blob/main/bathymetry_bvr_fcr.ipynb)
-
 
 ---
 
